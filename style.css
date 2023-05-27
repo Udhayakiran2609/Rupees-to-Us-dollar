@@ -1,0 +1,41 @@
+body{
+    background-color: #F6F1F1;
+}
+
+body h2{
+    margin: 0;
+    padding:0;
+    text-align: center;
+    text-transform: uppercase;
+    color:#19A7CE ;
+   
+
+}
+.box{
+    border:1px solid #000000;
+    border-radius: 0px 0px 50px 50px;
+    width: 300px;
+    height: 300px;
+    margin-left: 500px;
+    margin-top: 100px;
+    background-color:#FAEDCD;
+}
+.box h3{
+    text-align: center;
+    color: #146C94;
+}
+.in{
+  margin-left:60px;
+  margin-top:30px;
+}
+.sub{
+    margin-left:85px;
+    margin-top:20px;
+    width:200px;
+    
+}
+#result{
+    text-align: center;
+    margin-top:20px;
+    color:#19A7CE;
+}

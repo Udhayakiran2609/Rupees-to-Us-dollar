@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+
+</head>
+<body>  
+    <div class="jumbotron">
+
+    
+    <h2>Welcome to my web page</h2></div>
+    <div class="box">
+        <h3>Indian rupee to US Dollar</h3>
+        <div class="in">
+        <input type="text" placeholder="Enter the value" id="input"><br>
+        </div>
+        <div class="sub">
+        <button type="submit" onclick="convert()">Convert to Rupees</button>
+    </div>
+        <div id="result">
+            
+        </div>
+    </div>
+   
+     
+    <script>
+        function convert(){
+
+        
+        const value=Number(document.getElementById("input").value);
+        const formula=value* 82.8075;
+        const result=document.getElementById("result");
+        result.innerHTML=formula+" Rupees";
+        }
+    </script>
+</body>
+</html>
